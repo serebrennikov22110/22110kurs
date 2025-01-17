@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Задает минимальную высоту для страницы */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Основной контент занимает всё оставшееся пространство */
+    padding: 20px; /* Добавляем отступы */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.product-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product-icon {
+    text-align: center;
+    margin: 10px;
+}
+
+.product-icon img {
+    width: 150px;
+    height: 150px; /* Вы можете изменить размер изображений по мере необходимости */
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.container {
+    background-image: url();
+}
